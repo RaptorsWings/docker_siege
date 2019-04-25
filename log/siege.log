@@ -1,0 +1,16 @@
+1) DATE/HOST
+2) TRANS - Transactions
+3) ELAPSED TIME - Elapsed time
+4) DATA TRANSF - Data transferred (MB)
+5) RESP TIME - Response time
+6) TRANS RATE - Transaction rate (MB/sec)
+7) Throughput (MB/sec)
+8) Concurrency
+9) SUCCESS TRANS - Successful transaction
+10)FAIL TRANS - Failed transaction
+
+*****************************************************************************************************************************
+*                  *             *             *          *         *          *            *            *          *       *
+*  HOST & DATE     *   TRANSF:   * ELAPSED     * DATA     * RESP    *  TRANS   * Throughput *Concurrency * SUCCESS  * FAIL  *
+*		   *	         * TIME:       * TRANSF:  * TIME:   *  RATE    *            *            * TRANS    * TRANS *
+*****************************************************************************************************************************        

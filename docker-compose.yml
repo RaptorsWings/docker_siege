@@ -1,0 +1,8 @@
+version: '2' 
+services:
+  siege:    
+    image: worstnightmare/siege:latest
+    volumes:
+       - ./log/:/var/log/
+    restart: always
+    command: ["--rc=siege.conf", "-b", "-v", "-c", "$CONCURRENT", "-r", "$REPS", "--mark=website.com", "-t", "$TIME", "$URL", "--log=/var/log/siege.log"]
